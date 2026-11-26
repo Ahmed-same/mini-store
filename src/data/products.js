@@ -1,14 +1,15 @@
 export const products = [
-  { id: 1, name: "Wireless Headphones", price: 89, category: "Electronics", emoji: "🎧", rating: 4.5, description: "Over-ear headphones with noise reduction and 30 hours of battery." },
-  { id: 2, name: "Smart Watch", price: 129, category: "Electronics", emoji: "⌚", rating: 4.2, description: "Tracks steps, sleep and heart rate. Water resistant." },
-  { id: 3, name: "Bluetooth Speaker", price: 45, category: "Electronics", emoji: "🔊", rating: 4.0, description: "Portable speaker with clear sound and 12 hours of play time." },
-  { id: 4, name: "Running Shoes", price: 70, category: "Fashion", emoji: "👟", rating: 4.6, description: "Light shoes with soft cushioning for daily runs." },
-  { id: 5, name: "Backpack", price: 38, category: "Fashion", emoji: "🎒", rating: 4.3, description: "Water resistant backpack with a laptop pocket." },
-  { id: 6, name: "Sunglasses", price: 25, category: "Fashion", emoji: "🕶️", rating: 3.9, description: "UV protection lenses with a light frame." },
-  { id: 7, name: "Coffee Mug", price: 12, category: "Home", emoji: "☕", rating: 4.7, description: "Ceramic mug that keeps your drink warm longer." },
-  { id: 8, name: "Desk Lamp", price: 33, category: "Home", emoji: "💡", rating: 4.4, description: "LED lamp with three brightness levels." },
-  { id: 9, name: "Plant Pot", price: 15, category: "Home", emoji: "🪴", rating: 4.1, description: "Simple clay pot with a drainage tray." },
-  { id: 10, name: "JavaScript Book", price: 29, category: "Books", emoji: "📘", rating: 4.8, description: "A clear guide to modern JavaScript, from basics to async code." },
-  { id: 11, name: "Notebook", price: 6, category: "Books", emoji: "📓", rating: 4.0, description: "200 lined pages with a hard cover." },
-  { id: 12, name: "Mechanical Keyboard", price: 99, category: "Electronics", emoji: "⌨️", rating: 4.6, description: "Tactile switches and a compact layout for coding." }
+  { id: 1, name: "Wireless Headphones", price: 89, category: "Electronics", image: "/mini-store/images/17-p1.jpg", emoji: "🎧", rating: 4.5, description: "Over-ear headphones with noise reduction and 30 hours of battery." },
+  { id: 2, name: "Smart Watch", price: 129, category: "Electronics", image: "/mini-store/images/40-p2.jpg", emoji: "⌚", rating: 4.2, description: "Tracks steps, sleep and heart rate. Water resistant." },
+  { id: 3, name: "Bluetooth Speaker", price: 45, category: "Electronics", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg/500px-JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg", emoji: "🔊", rating: 4.0, description: "Portable speaker with clear sound and 12 hours of play time." },
+  { id: 4, name: "Running Shoes", price: 70, category: "Fashion", image: "/mini-store/images/42-p4.jpg", emoji: "👟", rating: 4.6, description: "Light shoes with soft cushioning for daily runs." },
+  { id: 5, name: "Backpack", price: 38, category: "Fashion", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Plecak_Hiker_50_L_HiMountain.jpg/500px-Plecak_Hiker_50_L_HiMountain.jpg", emoji: "🎒", rating: 4.3, description: "Water resistant backpack with a laptop pocket." },
+  { id: 6, name: "Sunglasses", price: 25, category: "Fashion", image: "/mini-store/images/44-p6.jpg", emoji: "🕶️", rating: 3.9, description: "UV protection lenses with a light frame." },
+  { id: 7, name: "Coffee Mug", price: 12, category: "Home", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/White_Ceramic_Coffee_Mug_With_Color_Transfer_Image_of_Palace_of_Manufactures.jpg/500px-White_Ceramic_Coffee_Mug_With_Color_Transfer_Image_of_Palace_of_Manufactures.jpg", emoji: "☕", rating: 4.7, description: "Ceramic mug that keeps your drink warm longer." },
+  { id: 8, name: "Desk Lamp", price: 33, category: "Home", image: "/mini-store/images/46-p8.jpg", emoji: "💡", rating: 4.4, description: "LED lamp with three brightness levels." },
+  { id: 9, name: "Plant Pot", price: 15, category: "Home", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Maceta.jpg/500px-Maceta.jpg", emoji: "🪴", rating: 4.1, description: "Simple clay pot with a drainage tray." },
+  { id: 10, name: "JavaScript Book", price: 29, category: "Books", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_C_Programming_Language%2C_2nd_Edition.png/500px-The_C_Programming_Language%2C_2nd_Edition.png", emoji: "📘", rating: 4.8, description: "A clear guide to modern JavaScript, from basics to async code." },
+  { id: 11, name: "Notebook", price: 6, category: "Books", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Newone_-_Grand_spiral_notebook_A7.jpg/500px-Newone_-_Grand_spiral_notebook_A7.jpg", emoji: "📓", rating: 4.0, description: "200 lined pages with a hard cover." },
+  { id: 12, name: "Mechanical Keyboard", price: 99, category: "Electronics", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mechanical_Logitech_keyboard.jpg/500px-Mechanical_Logitech_keyboard.jpg", emoji: "⌨️", rating: 4.6, description: "Tactile switches and a compact layout for coding." }
 ];
+
