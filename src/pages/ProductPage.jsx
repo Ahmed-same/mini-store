@@ -20,7 +20,7 @@ export default function ProductPage() {
     <div className="details">
       <Link to="/">← Back</Link>
       <div className="details-body">
-        <div className="details-img">{product.emoji}</div>
+        <div className="details-img"><img src={product.image} alt={product.name} /></div>
         <div>
           <span className="tag">{product.category}</span>
           <h1>{product.name}</h1>
@@ -33,3 +33,4 @@ export default function ProductPage() {
     </div>
   );
 }
+
