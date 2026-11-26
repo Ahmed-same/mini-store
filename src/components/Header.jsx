@@ -7,7 +7,10 @@ export default function Header() {
     <header className="header">
       <Link to="/" className="logo">🛍️ Mini Store</Link>
       <nav>
-        <NavLink to="/">Products</NavLink>
+        <NavLink to="/" end>Home</NavLink>
+        <NavLink to="/products">Products</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         <NavLink to="/cart" className="cart-link">
           Cart {count > 0 && <span className="badge">{count}</span>}
         </NavLink>
