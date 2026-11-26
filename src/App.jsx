@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import Products from "./pages/Products.jsx";
 import ProductPage from "./pages/ProductPage.jsx";
 import Cart from "./pages/Cart.jsx";
+import { Home, About, Contact } from "./pages/Info.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
 export default function App() {
@@ -11,7 +12,10 @@ export default function App() {
       <Header />
       <main className="container">
         <Routes>
-          <Route path="/" element={<Products />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<NotFound />} />
