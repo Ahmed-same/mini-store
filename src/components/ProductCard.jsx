@@ -5,7 +5,7 @@ export default function ProductCard({ product }) {
   const { addToCart } = useCart();
   return (
     <div className="card">
-      <Link to={`/product/${product.id}`} className="card-img">{product.emoji}</Link>
+      <Link to={`/product/${product.id}`} className="card-img"><img src={product.image} alt={product.name} loading="lazy" /></Link>
       <span className="tag">{product.category}</span>
       <h3>{product.name}</h3>
       <p className="rating">⭐ {product.rating}</p>
@@ -16,3 +16,4 @@ export default function ProductCard({ product }) {
     </div>
   );
 }
+
